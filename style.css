@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./traffic.avif");
+    background-size: cover;
+}
+.main{
+    display: table;
+    /* border: 3px solid red ; */
+    margin: auto;
+    background: grey;
+    position: relative;
+    border-radius: 10px;
+    left: 200px;
+    top: 50px;
+    
+}
+
+.light{
+    width: 75px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    font-family: sans-serif;
+    margin: 10px;
+    background:black;
+}
